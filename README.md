@@ -1,5 +1,5 @@
 # COV-ID Issuer Demo
-A demo front-end application to issue COVID-19 digital verifiable credential
+A demo front-end application to issue COVID-19 digital verifiable credential.
 
 
 # License
