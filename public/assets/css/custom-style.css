@@ -1,0 +1,13 @@
+.main-header .outer-box .logo {
+    padding-bottom: 0;
+}
+
+.logo-covid19 {
+    padding: 0;
+    text-align: right;
+}
+
+.logo-covid19 img {
+    width: 30%;
+    height: 30%;
+}
