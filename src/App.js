@@ -1,23 +1,27 @@
-import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-import PreLoader from './PreLoader';
-import Header from './Header';
-// import About from './About';
-// import Login from './Login';
-import Issuer from './Issuer';
-import Footer from './Footer';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import PreLoader from "./PreLoader";
+import Header from "./Header";
+import Issuer from "./Issuer";
+import About from "./About";
+import Login from "./Login";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <PreLoader />
-      <Header />
-      {/* <About /> */}
-      {/* <Login /> */}
-      <Issuer />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <PreLoader />
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Issuer} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/login" component={Login} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
