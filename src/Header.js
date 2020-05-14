@@ -16,6 +16,7 @@ function Header() {
                 <img src="assets/images/issuer-logos/logo-akuhk.png" alt="" />
               </a>
             </figure>
+            <br />
             <figure className="logo-covid19">
               <a href="https://trust.net.pk/covid19">
                 <img src="assets/images/logo.png" alt="" />
@@ -52,7 +53,7 @@ function Header() {
             </nav>
             <div className="btn-box">
               <a href="login.html" className="theme-btn">
-                <i className="fas fa-wallet"></i>Issue Immunity Creds
+                <i className="fas fa-wallet"></i>Issue Vaccination Certificate
               </a>
             </div>
           </div>
@@ -74,7 +75,7 @@ function Header() {
               </nav>
               <div className="btn-box">
                 <a href="login.html" className="theme-btn">
-                  <i className="fas fa-wallet"></i>Issue Immunity Creds
+                  <i className="fas fa-wallet"></i>Issue Vaccination Certificate
                 </a>
               </div>
             </div>

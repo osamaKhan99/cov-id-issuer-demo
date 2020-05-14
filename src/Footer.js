@@ -37,8 +37,9 @@ function Footer() {
                     <figure className="footer-logo">
                       <a href="index.html">
                         <img
-                          src="assets/images/issuer-logos/logo-akuhk.png"
+                          src="assets/images/aga-khan-transparent.png"
                           alt=""
+                          href="https://hospitals.aku.edu/pakistan/Pages/default.aspx"
                         />
                       </a>
                     </figure>
@@ -64,30 +65,38 @@ function Footer() {
                       <ul className="list clearfix">
                         <li>
                           <img
-                            src="./assets/images/trustnet-logo.png"
-                            alt=""
-                            title=" TrustNet Pakistan"
-                            height="100px"
-                            width="100px"
-                          />
-                        </li>
-                        <li>
-                          <img
-                            src="./assets/images/gov_bc_logo-black.png"
-                            alt=""
-                            title="Covid Credential Initiative"
-                            height="120px"
-                            width="120px"
-                          />
-                        </li>
-                        <li>
-                          <img
                             src="./assets/images/CCI-right-text-black.png"
                             alt=""
                             title="Covid Credential Initiative"
-                            height="120px"
-                            width="120px"
+                            height="140px"
+                            width="140px"
                           />
+                        </li>
+                        <li>
+                          <a href="https://xord.one/">
+                            <img
+                              src="./assets/images/xord-logo-bluegray.png"
+                              alt=""
+                              title=" XORD"
+                              height="100px"
+                              width="100px"
+                              href="https://xord.one/"
+                            />
+                          </a>
+                        </li>
+                        <div className="widget-title">
+                          <h3>Built by</h3>
+                        </div>
+                        <li>
+                          <a href="https://trust.net.pk/">
+                            <img
+                              src="./assets/images/trustnet-logo.png"
+                              alt=""
+                              title=" TrustNet Pakistan"
+                              height="150px"
+                              width="150px"
+                            />
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -100,23 +109,39 @@ function Footer() {
                     </div>
                     <ul className="info-list clearfix">
                       <li>
-                        <img
-                          src="./assets/images/VON-logo.png"
-                          alt=""
-                          title="Vonx"
-                          height="200px"
-                          width="200px"
-                        />
+                        <a href="">
+                          <img
+                            src="./assets/images/indy-logo.png"
+                            alt=""
+                            title="Hyperledger Indy"
+                            height="145px"
+                            width="145px"
+                            href=""
+                          />
+                        </a>
                       </li>
-                      <h6 className="logo-title">Using</h6>
                       <li>
-                        <img
-                          src="./assets/images/hyper_dark.png"
-                          alt=""
-                          title="Hyperledger"
-                          height="150px"
-                          width="150px"
-                        />
+                        <a href="">
+                          <img
+                            src="./assets/images/aries-logo.png"
+                            alt=""
+                            title="Hyperledger Aries"
+                            height="140px"
+                            width="140px"
+                            href=""
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://vonx.io/">
+                          <img
+                            src="./assets/images/VON-logo.png"
+                            alt=""
+                            title="Vonx"
+                            height="200px"
+                            width="200px"
+                          />
+                        </a>
                       </li>
                     </ul>
                     <ul className="social-links clearfix">

@@ -598,9 +598,8 @@ img {
 
 .main-header .outer-box .logo {
   position: relative;
-  /* display: inline-block; */
+  display: inline-block;
   padding: 19px 0px 18px 0px;
-  float: left;
 }
 
 /** main-menu **/
@@ -1748,7 +1747,7 @@ div#mCSB_1_container {
 }
 
 .about-section .image-box img {
-  width: 100%;
+  width: 50%;
 }
 
 .about-section .sec-title {
@@ -2743,7 +2742,7 @@ div#mCSB_1_container {
 .main-footer .widget-section .footer-widget .widget-title {
   position: relative;
   display: block;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-left: 10x;
 }
 
@@ -2807,9 +2806,8 @@ div#mCSB_1_container {
   position: relative;
   display: block;
   color: #93959e;
-  padding-left: 10px;
   margin-bottom: 5px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .main-footer .widget-section .contact-widget .info-list li a {
@@ -2833,13 +2831,15 @@ div#mCSB_1_container {
 .main-footer .widget-section .contact-widget .info-list {
   position: relative;
   display: block;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
+  margin: 10px 0;
 }
 
 .main-footer .widget-section .contact-widget .social-links li {
   position: relative;
   display: inline-block;
   margin-right: 30px;
+  margin-top: 5px;
 }
 
 .main-footer .widget-section .contact-widget .social-links li:last-child {
