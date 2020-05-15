@@ -1,28 +1,28 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
-import PreLoader from "./PreLoader";
-import Header from "./Header";
-import Issuer from "./Issuer";
-import About from "./About";
-import Login from "./Login";
-import Footer from "./Footer";
+import PreLoader from './components/Layout/PreLoader'
+import Header from './components/Layout/Header'
+import Footer from './components/Layout/Footer'
+import Issuer from './components/Issuer/Issuer'
+import Login from './components/Auth/Login'
+import Dashboard from './components/Dashboard'
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <PreLoader />
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Issuer} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/login" component={Login} />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
-  );
+	return (
+		<Router>
+			<div className="App">
+				<PreLoader />
+				<Header />
+				<Switch>
+					<Route exact path="/" component={Dashboard} />
+					<Route exact path="/login" component={Login} />
+					<Route exact path="/issue" component={Issuer} />
+				</Switch>
+				<Footer />
+			</div>
+		</Router>
+	)
 }
 
-export default App;
+export default App
