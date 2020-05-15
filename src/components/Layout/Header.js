@@ -34,7 +34,7 @@ function Header() {
 								href="https://hospitals.aku.edu/pakistan/Pages/default.aspx"
 								target="_blank"
 							>
-								<img src="assets/images/issuer-logos/logo-akuhk.png" alt="" />
+								<img src="assets/images/aga-khan-transparent.png" alt="" />
 							</a>
 						</figure>
 						<br />

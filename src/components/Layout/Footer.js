@@ -32,11 +32,15 @@ function Footer() {
 					<div className="auto-container">
 						<div className="widget-section">
 							<div className="row clearfix">
-								<div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+								<div className="col-lg-4 col-md-6 col-sm-12 footer-column">
 									<div className="logo-widget footer-widget">
 										<figure className="footer-logo">
 											<a href="index.html">
-												<img src="assets/images/footer-logo.png" alt="" />
+												<img
+													src="assets/images/aga-khan-transparent.png"
+													alt=""
+													href="https://hospitals.aku.edu/pakistan/Pages/default.aspx"
+												/>
 											</a>
 										</figure>
 										<div className="text">
@@ -52,82 +56,91 @@ function Footer() {
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+								<div className="col-lg-4 col-md-6 col-sm-12 footer-column">
 									<div className="links-widget service footer-widget">
 										<div className="widget-title">
-											<h3>Services</h3>
+											<h3>Community Partners</h3>
 										</div>
 										<div className="widget-content">
 											<ul className="list clearfix">
 												<li>
-													<a href="index.html">About Us</a>
+													<img
+														src="./assets/images/CCI-right-text-black.png"
+														alt=""
+														title="Covid Credential Initiative"
+														height="140px"
+														width="140px"
+													/>
 												</li>
 												<li>
-													<a href="index.html">Symptoms</a>
+													<a href="https://xord.one/">
+														<img
+															src="./assets/images/xord-logo-bluegray.png"
+															alt=""
+															title=" XORD"
+															height="100px"
+															width="100px"
+															href="https://xord.one/"
+														/>
+													</a>
 												</li>
+												<div className="widget-title">
+													<h3>Built by</h3>
+												</div>
 												<li>
-													<a href="index.html">Prevention</a>
-												</li>
-												<li>
-													<a href="index.html">Our Doctors</a>
-												</li>
-												<li>
-													<a href="index.html">Our Blog</a>
-												</li>
-												<li>
-													<a href="index.html">Contact Us</a>
+													<a href="https://trust.net.pk/">
+														<img
+															src="./assets/images/trustnet-logo.png"
+															alt=""
+															title=" TrustNet Pakistan"
+															height="150px"
+															width="150px"
+														/>
+													</a>
 												</li>
 											</ul>
 										</div>
 									</div>
 								</div>
-								<div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-									<div className="links-widget region footer-widget">
-										<div className="widget-title">
-											<h3>Regions</h3>
-										</div>
-										<div className="widget-content">
-											<ul className="list clearfix">
-												<li>
-													<a href="index.html">America</a>
-												</li>
-												<li>
-													<a href="index.html">Africa</a>
-												</li>
-												<li>
-													<a href="index.html">South East Asia</a>
-												</li>
-												<li>
-													<a href="index.html">Europe</a>
-												</li>
-												<li>
-													<a href="index.html">Australia</a>
-												</li>
-												<li>
-													<a href="index.html">Westenr Pacific</a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+								<div className="col-lg-4 col-md-6 col-sm-12 footer-column">
 									<div className="contact-widget footer-widget">
 										<div className="widget-title">
-											<h3>Contacts</h3>
+											<h3>Powered by</h3>
 										</div>
 										<ul className="info-list clearfix">
 											<li>
-												<i className="fas fa-map-marker-alt"></i>Flat 20,
-												Reynolds Neck, North Helenaville, FV77 8WS
+												<a href="">
+													<img
+														src="./assets/images/indy-logo.png"
+														alt=""
+														title="Hyperledger Indy"
+														height="145px"
+														width="145px"
+														href=""
+													/>
+												</a>
 											</li>
 											<li>
-												<i className="fas fa-microphone"></i>
-												<a href="tel:23055873407">+2(305) 587-3407</a>
+												<a href="">
+													<img
+														src="./assets/images/aries-logo.png"
+														alt=""
+														title="Hyperledger Aries"
+														height="140px"
+														width="140px"
+														href=""
+													/>
+												</a>
 											</li>
 											<li>
-												<i className="fas fa-envelope"></i>
-												<a href="mailto:info@example.com">
-													info@example.com
+												<a href="https://vonx.io/">
+													<img
+														src="./assets/images/VON-logo.png"
+														alt=""
+														title="Vonx"
+														height="200px"
+														width="200px"
+													/>
 												</a>
 											</li>
 										</ul>
